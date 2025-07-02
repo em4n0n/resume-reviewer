@@ -6,3 +6,5 @@ from openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
+
+st.set_page_config(page_title="AI Resume Critiquer", page_icon="📃", layout="centered")
